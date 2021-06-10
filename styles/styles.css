@@ -127,7 +127,7 @@ html{
     text-decoration: none;
 }
 
-.other-options ul li:hover{
+.other-options ul li a:hover{
     border-bottom: rgb(32, 33, 36) 1px solid;
 }
 .other-pages{

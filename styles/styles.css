@@ -71,3 +71,33 @@ html{
     border-radius: 50%;
     width: 3.3rem;
 }
+/*main content styles*/
+.main-content{
+    padding-left: 18rem;
+    height: 50vh;
+
+}
+.article{
+    padding-bottom: .7rem;
+}
+.main-content section{
+    width: 60rem;
+}
+.article p{
+    font-size: 1.4rem;
+    color: rgb(77, 81, 86);
+}
+.article a{
+    text-decoration: none;
+}
+.title-webpage{
+    font-size: 2rem;
+    text-decoration: none;
+}
+.article a:hover{
+    border-bottom: #9772B8 1px solid;
+}
+.article a[href="##"]{
+    font-size: 1.4rem;
+    padding-right: .8rem;
+}

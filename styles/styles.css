@@ -77,6 +77,10 @@ html{
     height: 50vh;
 
 }
+.main-content p{
+    font-size: 1.4rem;
+    color: rgb(77, 81, 86);
+}
 .article{
     padding-bottom: .7rem;
 }

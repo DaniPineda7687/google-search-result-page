@@ -74,8 +74,7 @@ html{
 /*main content styles*/
 .main-content{
     padding-left: 18rem;
-    height: 50vh;
-
+    height: 100vh;
 }
 .main-content p{
     font-size: 1.4rem;
@@ -105,3 +104,102 @@ html{
     font-size: 1.4rem;
     padding-right: .8rem;
 }
+.other-options{
+    width: 50rem;
+}
+.other-options p{
+    color: rgb(32, 33, 36);
+    font-size: 2.2rem;
+}
+.other-options ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.other-options ul li{
+    display: flex;
+    color: rgb(32, 33, 36);
+    font-size: 1.6rem;
+}
+.other-options ul li a{
+    padding-left: 2rem;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.other-options ul li:hover{
+    border-bottom: rgb(32, 33, 36) 1px solid;
+}
+.other-pages{
+    margin-bottom: 10rem;
+}
+.logo-final{
+    margin-top: 2rem;
+    width: 60rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.other-pages ul{
+    width: 30rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 9.5rem;
+    color: #4285F4;
+    font-size: 1.4rem;
+}
+.other-pages ul li a{
+    text-decoration: none;
+}
+.other-pages ul li a:hover{
+    border-bottom: #9772B8 1px solid;
+}
+/*Footer styles*/
+footer{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 1.5rem;
+    margin-top: 60rem;
+    padding-left: 18rem;
+}
+footer p{
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: .4rem;
+    
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    border-top:rgb(218, 218, 218) 1px solid;    ;
+}
+.footer-links ul{
+    list-style: none
+}
+.footer-links section ul li a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+.footer-links section ul li a:hover{
+    color: #35373a;
+}
+.footer-links section ul{
+    display: flex;
+}
+.first-links{
+    display: flex;
+
+}
+.first-links ul{
+    padding: 0;
+}
+.first-links ul li{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.second-links ul li{
+    padding-right: 2rem;
+}
+
